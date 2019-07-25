@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* --------------------------
+VARIABLES STYLES
+--------------------------- */
+/* --------------------------
+HOME-LOGIN STYLES
+--------------------------- */
+.login-bg {
+  background: url("../images/bg-forrest.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 414px;
+  height: 300px;
+  transform: skewY(-8deg);
+  transform-origin: top left; }
+
+.signup-box {
+  position: relative; }
+
+.signup {
+  color: #f1f1f1;
+  text-align: center; }
+
+.green-check {
+  background-color: #18967E;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto; }
+  .green-check .check-box {
+    position: relative;
+    left: calc(50% - 20px);
+    top: calc(50% - 28.81px/2); }
+    .green-check .check-box .white-check {
+      width: 40%;
+      height: auto; }
+
+/*
+<header>
+  <div class="header__bg"></div>
+  <h1>Header Content</h1>
+</header>
+
+<section>
+  <h1>Section Content</h1>
+</section>
+
+
+
+.header__bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#ff9d2f, #ff6126);
+  transform: skewY(-6deg);
+  transform-origin: top left;
+}
+
+h1 {
+  margin: 0;
+  padding: 100px 0;
+  font: 44px "Arial";
+  text-align: center;
+}
+
+header h1 {
+  position: relative;
+  color: white;
+}
+*/
+/* --------------------------
+ABOUT STYLES
+--------------------------- */
+/* --------------------------
+MENU STYLES
+--------------------------- */
+/* --------------------------
+CALENDER STYLES
+--------------------------- */
+/* --------------------------
+CALCULATOR STYLES
+--------------------------- */
+/* --------------------------
+GENERAL STYLES
+--------------------------- */
+html {
+  font-family: Arial, Helvetica, sans-serif; }
+
+body {
+  background-color: lime; }
+
+.main-container {
+  position: relative;
+  margin: 0 auto;
+  width: 414px;
+  height: 736px;
+  background-color: white; }
+
+/*# sourceMappingURL=main.css.map */
