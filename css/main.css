@@ -68,7 +68,8 @@ HOME-LOGIN STYLES
   transform-origin: top left; }
 
 .signup-box {
-  position: relative; }
+  position: relative;
+  padding: 100px 0 0; }
 
 .signup {
   color: #f1f1f1;
@@ -79,7 +80,7 @@ HOME-LOGIN STYLES
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  margin: 0 auto; }
+  margin: 80px auto 0; }
   .green-check .check-box {
     position: relative;
     left: calc(50% - 20px);
@@ -88,43 +89,33 @@ HOME-LOGIN STYLES
       width: 40%;
       height: auto; }
 
-/*
-<header>
-  <div class="header__bg"></div>
-  <h1>Header Content</h1>
-</header>
-
-<section>
-  <h1>Section Content</h1>
-</section>
-
-
-
-.header__bg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(#ff9d2f, #ff6126);
-  transform: skewY(-6deg);
-  transform-origin: top left;
-}
-
-h1 {
-  margin: 0;
-  padding: 100px 0;
-  font: 44px "Arial";
+.login-form {
+  margin: 50px auto;
   text-align: center;
-}
+  width: 90%; }
+  .login-form .login-div {
+    margin-bottom: 40px; }
+  .login-form label {
+    color: #b6b6b6; }
+  .login-form input {
+    background-color: transparent;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: #b6b6b6;
+    text-align: center;
+    width: 100%; }
+    .login-form input:placeholder {
+      font-size: 1.2rem;
+      color: black; }
+  .login-form button {
+    background-color: #e0069f;
+    border-style: none;
+    color: #f1f1f1;
+    padding: 10px 0;
+    width: 100%; }
 
-header h1 {
-  position: relative;
-  color: white;
-}
-*/
 /* --------------------------
 ABOUT STYLES
 --------------------------- */
@@ -140,17 +131,54 @@ CALCULATOR STYLES
 /* --------------------------
 GENERAL STYLES
 --------------------------- */
+* {
+  box-sizing: border-box; }
+
 html {
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1.5; }
 
 body {
-  background-color: lime; }
+  background-color: #383838; }
 
 .main-container {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
   margin: 0 auto;
+  position: relative;
   width: 414px;
-  height: 736px;
-  background-color: white; }
+  overflow: auto; }
+
+.content {
+  flex: 1 0 auto; }
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin: 0 auto;
+  width: 90%; }
+  footer .terms {
+    color: #b6b6b6; }
+  footer .sign-out {
+    color: #e0069f; }
+
+.lg-font {
+  font-size: 2.5rem;
+  font-weight: 100; }
+
+.md-font {
+  font-size: 1.5rem;
+  font-weight: 100; }
+
+.reg-font {
+  font-size: 1.2rem;
+  font-weight: 100; }
+
+.sm-font {
+  font-size: 1rem;
+  font-weight: 100; }
 
 /*# sourceMappingURL=main.css.map */

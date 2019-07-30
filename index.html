@@ -5,27 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Aytech Interface</title>
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <div class="main-container">
-    <header>
-      <div class="login-bg"></div>
+    <section class="content">
+      <header>
+        <div class="login-bg"></div>
 
-      <div class="signup-box">
-        <h1 class="signup">Sign Up</h1>
-        <div class="green-check">
-          <div class="check-box">
-            <img class="white-check" src="images/SVG/check.svg" alt="">
+        <div class="signup-box">
+          <h1 class="signup lg-font">Sign Up</h1>
+          <div class="green-check">
+            <div class="check-box">
+              <img class="white-check" src="images/SVG/check.svg" alt="">
+            </div>
           </div>
         </div>
-      </div>
-    </header>
-    
-    <div class="login-form">
+      </header>
+      
+      <form action="" method="post" class="login-form">
+        <div class="login-div">
+          <label for="name">Name</label>
+          <br>
+          <input type="text" name="fullname" id="name" class="reg-font" value="" placeholder="Ryan Wilson">
+        </div>
+        
+        <div class="login-div">
+          <label for="email">Email</label>
+          <br>
+          <input type="text" name="email" id="email" class="reg-font" value="" placeholder="ryanwilson@email.com">
+        </div>
 
-    </div>
+        <div class="login-div">
+          <label for="password">Password</label>
+          <br>
+          <input type="password" name="email" id="password" class="reg-font" value="1234abcd">
+        </div>
+        
+        <button type="submit" class="md-font">DONE</button>
+      </form>
+    </section>
+    
+    <footer>
+        <div class="terms">Terms & Conditions</div> 
+        <div class="sign-out">Sign Out</div> 
+    </footer>
   </div>
     
   <script src="index.js"></script>

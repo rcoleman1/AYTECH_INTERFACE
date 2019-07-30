@@ -1,7 +1,7 @@
 /* --------------------------
 HOME-LOGIN STYLES
 --------------------------- */
-.login-bg{
+.login-bg {
   background: url('../images/bg-forrest.png')no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -17,21 +17,20 @@ HOME-LOGIN STYLES
   transform: skewY(-8deg);
   transform-origin: top left;
 }
-
-
 .signup-box {
   position: relative;
+  padding: 100px 0 0;
 }
 .signup {
   color: $white;
   text-align: center;
 }
-.green-check{
+.green-check {
   background-color: $green;
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  margin: 0 auto;
+  margin: 80px auto 0;
   .check-box {
     position: relative;
     left: calc(50% - 20px);
@@ -43,40 +42,38 @@ HOME-LOGIN STYLES
   }
 }
 
-/*
-<header>
-  <div class="header__bg"></div>
-  <h1>Header Content</h1>
-</header>
-
-<section>
-  <h1>Section Content</h1>
-</section>
-
-
-
-.header__bg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(#ff9d2f, #ff6126);
-  transform: skewY(-6deg);
-  transform-origin: top left;
-}
-
-h1 {
-  margin: 0;
-  padding: 100px 0;
-  font: 44px "Arial";
+.login-form {
+  margin: 50px auto;
   text-align: center;
+  width: $width90;
+  .login-div {
+    margin-bottom: 40px;
+  }
+  label {
+    color: $gray;
+  }
+  input {
+    background-color: transparent;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: $gray;
+    text-align: center;
+    width: 100%;
+    &:placeholder {
+      font-size: $fontRegular;
+      color: black;
+    } 
+  }
+  button {
+    background-color: $pink;
+    border-style: none;
+    color: $white;
+    padding: 10px 0;
+    width: 100%;
+  }
 }
 
-header h1 {
-  position: relative;
-  color: white;
-}
-*/
+
+
